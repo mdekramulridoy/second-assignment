@@ -1,4 +1,5 @@
-@media screen and (max-width: 576px) 
+@media screen and (max-width: 576px)  /* This is the End of Responsive Layout Style */
+
 {
   *{
     scrollbar-width: none;
@@ -305,3 +306,4 @@
     display: block;
   }
 }
+/* This is the End of Responsive Layout Style */
