@@ -7,23 +7,9 @@
 body {
   font-family: "Inter", sans-serif;
   color: white;
-  width: 100%;
 }
-
-.style-text {
-  font-size: 100px;
-  font-family: "Dancing Script", cursive;
-}
-.display-flex {
+.display-flex{
   display: flex;
-}
-.margin {
-  margin: 0px 250px;
-}
-.align-item-center {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 .orange-color {
   color: rgb(230, 83, 60);
@@ -31,9 +17,18 @@ body {
 .black-low-opacity-color {
   color: rgba(255, 255, 255, 0.5);
 }
-/* Header part style Start */
 
-.header-part {
+.style-text {
+  font-size: 100px;
+  font-family: "Dancing Script", cursive;
+}
+/* Initial style Complete */
+
+/* Header style start */
+.hamburger{
+  display: none;
+}
+header{
   background: linear-gradient(
     to top,
     rgba(0, 0, 0, 1) 0%,
@@ -42,44 +37,12 @@ body {
     rgba(0, 0, 0, 0.9) 75%,
     rgba(0, 0, 0, 1) 100%
   );
-  height: 715px;
-
-  width: 100%;
-}
-
-/* Start heading section style! */
-
-.header-section {
-  /* border: 3px solid red;   */
-}
-.navigation-div {
+  padding-bottom: 50px;
   /* border: 2px solid white; */
-  padding-top: 58px;
-  justify-content: space-between;
 }
-.left-nav {
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 120%;
-  letter-spacing: 0%;
-  text-align: left;
-}
-.right-nav {
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 39px;
-  padding: 10px 3px;
-}
-.hamburger{
-  /* visibility: hidden; */
-  display: none;
-}
-.right-list {
-  gap: 4rem;
-  list-style: none;
-}
-.right-list a {
-  color: white;
-  text-decoration: none;
+
+.nav-part{
+  margin: 0 250px;
 }
 .home-button {
   /* border: 2px solid yellow; */
@@ -90,15 +53,42 @@ body {
   letter-spacing: 0%;
   background-color: rgb(230, 83, 60);
   border-radius: 25px;
+  margin-left: -20px;
 }
-.about-padding-right {
-  margin-right: 20px;
+.right-list {
+  /* border: 2px solid yellow; */
+  gap: 1.5rem;
+  list-style: none;
 }
-/* Navigation part END */
-
-/* Now header Container part start */
+.right-list a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 20px;
+  font-size: 18px;
+  /* font-weight: 600; */
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+.nav-part{
+  /* border: 2px solid red; */
+  padding-top: 70px;
+  justify-content: space-between;
+}
+.left-nav {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.right-nav{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 10px 3px;
+}
 .container-div {
   background-repeat: no-repeat;
+  margin: 0 250px;
 }
 .left-container {
   padding-top: 96px;
@@ -153,17 +143,19 @@ body {
   border: 1px solid white;
 }
 .right-container {
-  width: 50%;
-  height: 646px;
   position: relative;
-  background-image: url(images/Images\ 2.png);
-  background-repeat: no-repeat;
-  background-position: right;
+  width: 50%;
+  /* border: 2px solid red; */
+}
+.right-container img{
+  position: absolute;
+  top: 50px;
+  right: 20px;
 }
 .tag-one {
   position: absolute;
   right: 255px;
-  bottom: 100px;
+  bottom: 10px;
   display: flex;
   gap: 10px;
   width: 206px;
@@ -192,22 +184,32 @@ body {
   letter-spacing: 0.5px;
 }
 .mini-circle {
+  /* display: none; */
   background-color: rgb(230, 83, 60);
   width: 40px;
   border-radius: 50%;
   height: 40px;
 }
 
+.icon-mobile img{
+  display: none;
+  position: absolute;
+  z-index: 2;
+  bottom: 112px;
+  right: 348px;
+  width: 130px;
+  height: 70px;
+}
 .tag-content-two {
   flex-direction: column;
   position: absolute;
-  right: -100px;
-  top: 140px;
+  right: -70px;
+  top: 170px;
   display: flex;
   gap: 10px;
   margin: 0 auto;
-  width: 215px;
-  height: 115px;
+  width: 210px;
+  height: 105px;
   background-color: rgba(255, 255, 255, 0.134);
   border: 1px solid rgba(255, 255, 255, 0.1);
   justify-content: center;
@@ -228,27 +230,18 @@ body {
   line-height: 24px;
   letter-spacing: 0.5px;
 }
-/* Header Section END */
-
-/* Header part style End */
-
-/* Main-part style Start */
-
-.main-part {
-  /* border: 2px solid red; */
-  width: 100%;
-  height: 3500px;
+/* Header style End*/
+.change-section{
   background-color: black;
-  padding-top: 80px;
+  padding-top: 50px;
 }
-
-.change-header {
+.change-header{
   flex-direction: column;
   text-align: center;
-  gap: 10px;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 .change-header h1 {
+  padding-top: 20px;
   margin: 2rem 0;
   font-size: 65px;
   font-weight: 900;
@@ -260,12 +253,17 @@ body {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.5px;
+  padding-bottom: 70px;
 }
-.change-card {
+/* Change Header Style End */
+
+.change-card{
+  margin: 0 250px;
   justify-content: space-between;
-  padding: 0 3rem;
   align-items: center;
-  margin-bottom: 7rem;
+  gap: 100px;
+  /* border: 2px solid red; */
+  padding-bottom: 100px;
 }
 .change-card img {
   border-radius: 50%;
@@ -287,22 +285,26 @@ body {
   line-height: 40px;
   letter-spacing: 1px;
 }
-/* Change Card Style END */
+/* Change Style End */
 
-/* Run-extra Style Start */
-
+/* Run Extra Style Start */
+.run-extra-section{
+  background-color: black;
+  padding-bottom: 100px;
+}
 .run-extra-main {
   /* border: 2px solid red; */
-  height: 510px;
+  margin: 0 250px;
   background-color: rgba(255, 255, 255, 0.13);
   border-radius: 25px;
   justify-content: space-between;
-  margin-bottom: 100px;
+  padding: 30px;
 }
 .run-extra-left {
   width: 50%;
   padding-top: 60px;
   padding-left: 70px;
+  padding-bottom: 50px;
   /* border: 1px solid red; */
 }
 .run-extra-left h1 {
@@ -338,32 +340,30 @@ body {
   display: flex;
   justify-content: right;
   align-items: center;
-  padding-right: 50px;
+  padding: 15px;
   /* border: 1px solid red; */
 }
 .run-extra-right img {
-  /* display: flex; */
-  /* justify-content: right; */
-  weight: 420px;
-  height: 420px;
+  weight: 100%;
+  height: 100%;
   border-radius: 25px;
 }
 /* Responsive images */
 .run-extra-right-responsive {
   display: none;
 }
+/* Run Extra Style End */
 
-/* Responsive images */
+/* BMI Calculator Style Start */
 
-/* Run extra END */
-
-/* BMI Calculator Start */
-.bmi-calculator {
-  width: 100%;
-  margin-bottom: 100px;
-  /* border: 2px solid red; */
+.bmi-calculator-section{
+  background-color: black;
+  /* width: 100%; */
+  /* margin-bottom: 100px; */
 }
-
+.bmi-calculator{
+  /* margin: 0 250px; */
+}
 .bmi-heading {
   /* border: 2px solid red; */
   margin: 0 550px;
@@ -391,11 +391,11 @@ body {
 }
 .bmi-background {
   background-color: rgba(255, 255, 255, 0.13);
-  /* height: 700px; */
 }
 .bmi-both-part {
   /* border: 2px solid red; */
   width: 100%;
+  margin: 0 250px;
 }
 .left-bmi {
   margin: 100px 0 70px 0;
@@ -484,15 +484,21 @@ select {
   gap: 10px;
 }
 
+/* BMI Calculator Style End */
 
-/* BMI Calculator END */
+/* Meet Style Start */
 
+.meet-section{
+  background-color: black;
+}
 .meet-header{
+  margin: 0 250px;
   flex-direction: column;
   text-align: center;
 }
 
 .meet-header h1{
+  padding-top: 50px;
   font-size: 3rem;
   font-weight: 900;
   letter-spacing: 1px;
@@ -506,6 +512,7 @@ select {
   letter-spacing: 1px;
 }
 .meet-first-image-row{
+  margin: 0 250px;
   margin-top: 30px;
   justify-content: space-between;
 }
@@ -613,28 +620,22 @@ select {
   text-align: left;
 }
 .meet-second-image-row {
+  margin: 0 250px;
   margin-top: 18px;
   justify-content: space-between;
+  padding-bottom: 100px;
 }
 
-/* Main Section END */
+/* Meet Style End */
 
-/* Main Part END */
+/* Footer Style Start */
 
-/* Footer Part Start */
-
-.footer-part {
-  height: 500px;
-  /* border: 2px solid red; */
-  width: 100%;
+footer{
   background-color: rgba(0, 0, 0, 0.9);
-  padding-top:100px ;
 }
-
 .footer-main{
-  /* border: 2px solid red; */
-  height: 350px;
-  /* flex-direction: column; */
+  margin: 0 250px;
+  padding-top: 100px;
 }
 .left-footer{
   width: 50%;
@@ -642,6 +643,7 @@ select {
   /* border: 2px solid red; */
 }
 .left-footer h1{
+  /* border: 2px solid red; */
   font-size: 7rem;
   color: rgb(230, 83, 60);
   font-weight: 900;
@@ -702,13 +704,46 @@ select {
   letter-spacing: 1px;
 }
 .hr-color{
+  margin: 0 250px;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 .hr-colors{
   display: none;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
-/* Footer Part END */
+
+/* Footer Style End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
