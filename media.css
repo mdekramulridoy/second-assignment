@@ -33,7 +33,7 @@
   }
   .left-container h1 {
     font-size: 50px;
-    margin-right: 80px;
+    margin-right: 125px;
   }
   .left-container p {
     margin-right: 80px;
@@ -197,7 +197,242 @@
     padding-bottom: 100px;
     flex-direction: column;
   }
-  .change-card img{
+  .change-card img {
     margin: 0 20px;
   }
+  /* Change Style End */
+  /* Run Style Start */
+  .run-extra-section {
+    padding-bottom: 60px;
+  }
+  .run-extra-main {
+    /* border: 2px solid red; */
+    margin: 0 20px;
+    flex-direction: column;
+    padding: 30px;
+  }
+  .run-extra-left {
+    width: 100%;
+    padding: 0px;
+    padding-bottom: 30px;
+    /* border: 1px solid red; */
+  }
+  .run-extra-left h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+  }
+  .run-extra-left p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+    letter-spacing: 1px;
+    margin-right: 45px;
+  }
+  .run-extra-button {
+    margin-top: 2.5rem;
+    width: 100%;
+    margin-right: 0px;
+  }
+  /* Run Image */
+  .run-extra-right {
+    display: none;
+  }
+  .run-extra-right-responsive {
+    width: 100%;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .run-extra-right-responsive img {
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+  }
+  /* Run Extra End */
+  /* Bmi Calculator Start */
+  .bmi-calculator-section {
+    background-color: black;
+    /* width: 100%; */
+    /* margin-bottom: 100px; */
+  }
+  .bmi-calculator {
+    /* margin: 0 250px; */
+  }
+  .bmi-heading {
+    /* border: 2px solid red; */
+    margin: 0 20px;
+    padding-bottom: 50px;
+  }
+  .bmi-content {
+    justify-content: center;
+    text-align: left;
+    /* margin-left: 300px; */
+    /* border: 2px solid red; */
+    flex-direction: column;
+  }
+  .bmi-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  .bmi-content p {
+    margin-right: 20px;
+  }
+  .bmi-background {
+    background-color: rgba(255, 255, 255, 0.13);
+    padding-bottom: 50px;
+  }
+  .bmi-both-part {
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .left-bmi {
+    margin-top: 50px;
+    width: 100%;
+    flex-direction: column;
+    /* border: 2px solid red; */
+  }
+  .left-bmi h1 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  td,
+  th {
+    padding: 20px 3.5rem;
+  }
+  /* Left BMI End */
+  /* Right BMI Start */
+  .right-bmi {
+    width: 100%;
+    margin: 0;
+    /* border: 2px solid red; */
+  }
+  .right-bmi h1 {
+    font-size: 25px;
+  }
+  .right-bmi p {
+    margin-bottom: 20px;
+  }
+  .bmi-button {
+    width: 60%;
+  }
+  /* Right BMI End */
+
+  /* Bmi Calculator End */
+
+  /* Unique Challenge Style Start */
+  .unique-both {
+    /* background-color: rgb(0, 0, 0); */
+    padding-top: 0px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .unique-left h1 {
+    /* color: black; */
+    padding-top: 50px;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    /* text-align: center; */
+  }
+  .unique-left p {
+    /* color: black; */
+    /* padding-top: 50px; */
+    font-size: 1.1rem;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 1.9rem;
+    margin-bottom: 40px;
+    letter-spacing: 0.1px;
+    /* margin-bottom: 20px; */
+  }
+  .tik-mark {
+    padding-top: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .tik-mark img {
+    padding-bottom: 30px;
+    width: 150px;
+  }
+  .unique-left {
+    /* border: 2px solid red; */
+    width: 100%;
+    /* background-color: rgba(255, 0, 0, 0.1); */
+  }
+
+  .unique-right {
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+  .unique-right img {
+    width: 100%;
+  }
+  /* Unique Challenge Style End */
+  /* Meet Section Style */
+  .meet-section {
+    background-color: black;
+  }
+  .meet-main {
+    padding-bottom: 0px;
+  }
+  .meet-header {
+    margin: 0 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .meet-header h1 {
+    padding-top: 50px;
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  .meet-header p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+    /* margin-bottom: 400px; */
+    letter-spacing: 1px;
+    padding-bottom: 50px;
+    margin: 0 20px;
+  }
+
+  .meet-first-image-row {
+    /* margin: 0 250px; */
+    /* margin-top: 30px; */
+    justify-content: space-between;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .meet-second-image-row {
+    /* margin: 0 250px; */
+    /* margin-top: 30px; */
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .meet-background-color {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 0 20px;
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    padding: 30px;
+  }
+  .images-direction1 {
+    display: none;
+  }.images-direction4 {
+    display: none;
+  }
+  /* Meet Section End */
 }
