@@ -121,6 +121,9 @@ header {
   text-align: left;
   padding-top: 30px;
 }
+.left-container h1{
+  margin-right: 150px;
+}
 .left-container p{
   margin-right: 180px;
 }
