@@ -86,8 +86,12 @@ header {
 }
 .right-nav {
   border: 1px solid rgba(255, 255, 255, 0.1);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
   border-radius: 39px;
-  padding: 10px 3px;
+  padding: 8px 8px;
 }
 .container-div {
   background-repeat: no-repeat;
