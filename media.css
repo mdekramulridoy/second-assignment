@@ -7,6 +7,7 @@
   }
   .hamburger {
     display: block;
+    cursor: pointer;
   }
   .nav-part {
     margin: 0 20px;
