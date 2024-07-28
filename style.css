@@ -75,8 +75,11 @@ header {
   justify-content: space-between;
 }
 .left-nav {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+}
+.left-nav h1{
+  font-weight: 900;
   line-height: 120%;
   letter-spacing: 0%;
   text-align: left;
@@ -117,6 +120,9 @@ header {
   letter-spacing: 0.5px;
   text-align: left;
   padding-top: 30px;
+}
+.left-container p{
+  margin-right: 180px;
 }
 
 .header-button-one,
@@ -319,6 +325,7 @@ header {
   font-weight: 400;
   line-height: 1.9rem;
   letter-spacing: 1px;
+  margin-right: 100px;
 }
 .run-extra-button {
   margin-top: 2.5rem;
@@ -491,6 +498,9 @@ select {
 .meet-section {
   background-color: black;
 }
+.meet-main{
+  padding-bottom: 70px;
+}
 .meet-header {
   margin: 0 250px;
   flex-direction: column;
@@ -508,15 +518,24 @@ select {
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.9rem;
-  margin-bottom: 40px;
+  /* margin-bottom: 400px; */
   letter-spacing: 1px;
-}
-.meet-first-image-row {
+  padding-bottom: 50px;
   margin: 0 250px;
-  margin-top: 30px;
-  justify-content: space-between;
 }
 
+.meet-first-image-row {
+  /* margin: 0 250px; */
+  /* margin-top: 30px; */
+  justify-content: space-between;
+  gap: 20px;
+}
+.meet-background-color{
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 0 250px;
+  border-radius: 15px;
+  padding: 20px;
+}
 .image {
   border-radius: 15px;
   height: 385px;
@@ -629,10 +648,11 @@ select {
   text-align: left;
 }
 .meet-second-image-row {
-  margin: 0 250px;
+  /* margin: 0 250px; */
   margin-top: 18px;
+  gap: 20px;
   justify-content: space-between;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
 
 /* Meet Style End */
