@@ -497,6 +497,11 @@ select {
   letter-spacing: 1px;
   padding-right: 15.5px;
 }
+/* select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+} */
+
 .text {
   gap: 10px;
 }
