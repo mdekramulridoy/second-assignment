@@ -96,7 +96,9 @@ header {
   padding: 8px 8px;
 }
 .container-div {
+  /* border: 2px solid white; */
   background-repeat: no-repeat;
+  justify-content: space-between;
   margin: 0 250px;
 }
 .left-container {
@@ -160,17 +162,20 @@ header {
 .right-container {
   position: relative;
   width: 50%;
+  justify-content: right;
+  display: flex;
+  /* align-items: right; */
   /* border: 2px solid red; */
 }
 .right-container img {
-  position: absolute;
-  top: 50px;
-  right: 20px;
+  /* position: absolute; */
+  /* top: 50px;
+  right: 20px; */
 }
 .tag-one {
   position: absolute;
   right: 255px;
-  top: 460px;
+  top: 410px;
   display: flex;
   gap: 10px;
   width: 206px;
@@ -219,7 +224,7 @@ header {
   flex-direction: column;
   position: absolute;
   right: -70px;
-  top: 170px;
+  top: 110px;
   display: flex;
   gap: 10px;
   margin: 0 auto;
