@@ -361,7 +361,7 @@ header {
   /* border: 1px solid red; */
 }
 .run-extra-right img {
-  weight: 100%;
+  width: 100%;
   height: 100%;
   border-radius: 25px;
 }
@@ -725,7 +725,8 @@ select {
   /* border: 2px solid red; */
 }
 .unique-right img{
-  width: 900px;
+  width: 100%;
+  height: 100%;
 }
 /* Unique Section End */
 
