@@ -1,7 +1,4 @@
 @media screen and (max-width: 576px) {
-  .body {
-    /* scrollbar-width: none; */
-  }
   .right-list {
     display: none;
   }
@@ -535,10 +532,5 @@
     display: block;
     border: 1px solid rgba(255, 255, 255, 0.2);
   }
-
-
-
-
-
   /* Footer Style End */
 }
