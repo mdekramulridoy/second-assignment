@@ -80,6 +80,7 @@
     margin: 0 20px;
     right: 100px;
     width: 200px;
+    left: 0;
   }
   /* Tag Images Part */
   .tag-one {
@@ -262,15 +263,13 @@
     /* width: 100%; */
     /* margin-bottom: 100px; */
   }
-  .bmi-calculator {
-    /* margin: 0 250px; */
-  }
   .bmi-heading {
     /* border: 2px solid red; */
     margin: 0 20px;
     padding-bottom: 50px;
   }
   .bmi-content {
+    /* width: 100%; */
     justify-content: center;
     text-align: left;
     /* margin-left: 300px; */
@@ -307,7 +306,11 @@
   }
   td,
   th {
-    padding: 20px 3.5rem;
+    padding: 10px 1.5rem;
+    font-size: 0.7rem;
+  }
+  th{
+    font-size: 0.8rem;
   }
   /* Left BMI End */
   /* Right BMI Start */
