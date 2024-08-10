@@ -348,6 +348,7 @@
     font-weight: 900;
     letter-spacing: 1px;
     margin-bottom: 20px;
+    text-align: center;
     /* text-align: center; */
   }
   .unique-left p {
@@ -365,17 +366,28 @@
     padding-top: 0px;
     align-items: center;
     justify-content: center;
+    background-color: rgba(255, 255, 255, 0.294);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
   }
   .tik-mark img {
-    padding-bottom: 30px;
-    width: 150px;
+    padding-bottom: 0px;
+    padding-left: 1rem;
+    width: 2.5rem;
   }
   .unique-left {
     /* border: 2px solid red; */
     width: 100%;
     /* background-color: rgba(255, 0, 0, 0.1); */
   }
-
+  .unique-left p {
+    /* color: black; */
+    /* padding-top: 50px; */
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 0px;
+    /* margin-bottom: 20px; */
+  }
   .unique-right {
     width: 100%;
     /* border: 2px solid red; */
