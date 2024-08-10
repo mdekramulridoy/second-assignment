@@ -21,7 +21,7 @@ body {
 .style-text {
   /* font-size: 100px; */
   font-weight: 400;
-  font-size: 180px;
+  font-size: 9rem;
   font-family: 'Miama', sans-serif;
 }
 /* Initial style Complete */
@@ -130,10 +130,14 @@ header {
   padding-top: 30px;
 }
 .left-container h1{
-  margin-right: 150px;
+  /* border: 2px solid red; */
+  /* margin-right: 50px; */
+  font-size: 4rem;
+  font-weight: 800;
 }
 .left-container p{
-  margin-right: 180px;
+  margin-right: 80px;
+  /* border: 2px solid red; */
 }
 
 .header-button-one,
@@ -388,7 +392,7 @@ header {
 }
 .bmi-heading {
   /* border: 2px solid red; */
-  margin: 0 550px;
+  margin: 0 450px;
   padding-bottom: 90px;
 }
 .bmi-content {
